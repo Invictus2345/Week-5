@@ -1,0 +1,85 @@
+
+
+.TopHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 967px;
+    margin-left: 350px;
+    background-color: lightgray;
+}
+#searchbar{
+    width: 400px;
+}
+.body_container{
+    width: 967px;
+    margin-left: 350px;
+    margin-top: 56px;
+}
+.first_box{
+display: flex;
+height: 200px;
+}
+.second_box{
+    display: inline-block;
+    justify-content: flex-start;
+    border: gray solid 3px;
+    height: 174px;
+    font-size: 26px;
+    width: 185px;
+    
+}
+.third_box{
+    display: flex;
+    margin-left: 350px;
+    width: 605px;
+    height: 200px;
+    align-items: center;
+    margin-top: 20px;
+    border: gray solid 3px;
+}
+.inner_left{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    height: 200px;
+    margin-right: 65px;
+    border: gray solid 3px;
+}
+.paragraph{
+    width: 232px;
+    margin-left: 123px;
+    font-size: 21px;
+
+}
+.noun_box{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.likes_button{
+    margin-top: 20px;
+    background-color: khaki;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+}
+#login_btn{
+    background-color: rgb(34, 37, 221);
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+    color: white;
+}
+#Definition{
+    background-color: seagreen;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+    width: 185px;
+    height: 38px;
+}
